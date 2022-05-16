@@ -1,0 +1,178 @@
+<mxfile host="65bd71144e">
+    <diagram id="Hc6afme303VNWuR9UEwJ" name="Page-1">
+        <mxGraphModel dx="1616" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2800" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 17px&quot;&gt;#Main&lt;br&gt;&lt;br&gt;&lt;u&gt;Connect to database&lt;/u&gt;&lt;br&gt;- Get remote keys (admin &amp;amp; user)&lt;br&gt;- Get allowed activation period&lt;br&gt;&lt;br&gt;&lt;u&gt;Read storage&lt;/u&gt;&lt;br&gt;- Check if any key is present on device&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="50" width="560" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;IF local key IS present&lt;br&gt;&lt;/u&gt;&lt;br&gt;- Parse local key&lt;br&gt;&lt;br&gt;- Extract actual key &amp;amp; activation&lt;br&gt;date&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="300" width="280" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;IF local key is NOT present&lt;/u&gt;&lt;br&gt;&lt;br&gt;- Go to #LoginScreen&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;fillColor=#2A0000;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="300" width="260" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;IF depot not selected&lt;/u&gt;&lt;br&gt;&lt;br&gt;- Go to #DepotSelection&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;fillColor=#2A0000;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="1510" width="260" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;IF depot selected&lt;/u&gt;&lt;br&gt;&lt;br&gt;- Go to #Index&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="1510" width="280" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="1330" as="sourcePoint"/>
+                        <mxPoint x="510" y="1380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="&lt;u&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;Read storage&lt;/span&gt;&lt;br style=&quot;font-size: 17px&quot;&gt;&lt;/u&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;- Check if depot has been selected&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="1380" width="560" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="1460" as="sourcePoint"/>
+                        <mxPoint x="510" y="1510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="789.41" y="1460" as="sourcePoint"/>
+                        <mxPoint x="789.41" y="1510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="920" y="380" as="sourcePoint"/>
+                        <mxPoint x="1090" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;span style=&quot;font-size: 17px&quot;&gt;IF device is still within the activation period&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="630" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;IF key IS valid&lt;br&gt;&lt;/u&gt;&lt;br&gt;- Set session &quot;admin permission&quot;&lt;br&gt;to TRUE&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="1190" width="280" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;IF key is NOT valid&lt;br&gt;&lt;/u&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;- Set session &quot;admin permission&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 17px&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;to FALSE&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;fillColor=#2A282A;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="1190" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;span style=&quot;font-size: 17px&quot;&gt;- Check activation timestamp against current date&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="520" width="560" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;IF local timestamp EXPIRED&lt;br&gt;&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;- Go to #LoginScreen&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;fillColor=#2A0000;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="630" width="260" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;span style=&quot;font-size: 17px&quot;&gt;- Check if local key equals a valid key (from database)&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="780" width="560" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="250" as="sourcePoint"/>
+                        <mxPoint x="510" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="789.5" y="250" as="sourcePoint"/>
+                        <mxPoint x="789.5" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="470" as="sourcePoint"/>
+                        <mxPoint x="510" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="580" as="sourcePoint"/>
+                        <mxPoint x="510" y="630" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="789.5" y="580" as="sourcePoint"/>
+                        <mxPoint x="789.5" y="630" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="920" y="679.5" as="sourcePoint"/>
+                        <mxPoint x="1090" y="679.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="730" as="sourcePoint"/>
+                        <mxPoint x="510" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="&lt;span style=&quot;font-size: 17px&quot;&gt;- Check if admin key is found, and equals valid key (from database)&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="1080" width="560" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;IF key IS valid&lt;br&gt;&lt;/u&gt;&lt;br&gt;- Check if device also has&lt;br&gt;an admin key&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="890" width="280" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;IF key is NOT valid&lt;br&gt;&lt;/u&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;- Go to #LoginScreen&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;fillColor=#2A0000;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="890" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="840" as="sourcePoint"/>
+                        <mxPoint x="510" y="890" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="1030" as="sourcePoint"/>
+                        <mxPoint x="510" y="1080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="789.5" y="840" as="sourcePoint"/>
+                        <mxPoint x="789.5" y="890" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="1140" as="sourcePoint"/>
+                        <mxPoint x="510" y="1190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="789.4100000000001" y="1140" as="sourcePoint"/>
+                        <mxPoint x="789.4100000000001" y="1190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="920" y="959.4100000000001" as="sourcePoint"/>
+                        <mxPoint x="1090" y="959.4100000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="920" y="1564.4099999999999" as="sourcePoint"/>
+                        <mxPoint x="1090" y="1564.4099999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;&lt;br&gt;Enter Application&lt;/u&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=11;fillColor=#003300;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="1670" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="1620" as="sourcePoint"/>
+                        <mxPoint x="510" y="1670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="789.4100000000001" y="1330" as="sourcePoint"/>
+                        <mxPoint x="789.4100000000001" y="1380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

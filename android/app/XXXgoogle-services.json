@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "85380877024",
+    "project_id": "rl100-1a10e",
+    "storage_bucket": "rl100-1a10e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85380877024:android:65e021f94b22682f18de85",
+        "android_client_info": {
+          "package_name": "com.example.rl_001"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85380877024-uvgimu9vaktplg08mpnkhgncpngh87p8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rl_001",
+            "certificate_hash": "6cf3fadd3a36eea06a33f64c9cb14b762841a568"
+          }
+        },
+        {
+          "client_id": "85380877024-s42tijlenmsq7fupeij1lept69mnn22o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6UsJbuNye0JQ1X9fSx4Tie6B1DWsUP5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85380877024-s42tijlenmsq7fupeij1lept69mnn22o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85380877024:android:43958fd3a42a0fd618de85",
+        "android_client_info": {
+          "package_name": "com.example.routel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85380877024-jo8nbg6g187dfdineiasnq4qf1d64us0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.routel",
+            "certificate_hash": "6cf3fadd3a36eea06a33f64c9cb14b762841a568"
+          }
+        },
+        {
+          "client_id": "85380877024-s42tijlenmsq7fupeij1lept69mnn22o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6UsJbuNye0JQ1X9fSx4Tie6B1DWsUP5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85380877024-s42tijlenmsq7fupeij1lept69mnn22o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85380877024:android:de83fb769c24288118de85",
+        "android_client_info": {
+          "package_name": "com.example.routelearner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85380877024-s42tijlenmsq7fupeij1lept69mnn22o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6UsJbuNye0JQ1X9fSx4Tie6B1DWsUP5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85380877024-s42tijlenmsq7fupeij1lept69mnn22o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="rdn9pPAtQoFR-Kr9XFV1" name="Page-1">
+        <mxGraphModel dx="1068" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2800" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=9;fillColor=#e3c800;strokeColor=#FFFF00;" parent="1" source="4" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="QR Donor" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#FFFF00;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="280" height="660" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=6;" edge="1" parent="1" source="2" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="#QRGen&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Generates random code to be used for QR code&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Code's access level decided by which remote document the key is sent to&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Sends&amp;nbsp;&lt;/span&gt;code&amp;nbsp;&lt;span&gt;to server&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;- Generates QR code shown on UI from this code&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacing=11;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="120" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFF00;strokeWidth=9;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="QR R&lt;span&gt;ecipient&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#FFFF00;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="40" width="530" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Cloud Server" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#FFFF00;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="40" width="280" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="hYisgGfd9ksdf0ybfdsk" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF00;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="140" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="QR Donor's&amp;nbsp;&lt;span style=&quot;text-align: left&quot;&gt;code&amp;nbsp;&lt;/span&gt;arrives in QR bank" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="100" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;strokeColor=#FFFF00;strokeWidth=9;" parent="1" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="#QRScan&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Opens camera for QR code scanning&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Obtains&amp;nbsp;&lt;/span&gt;code&amp;nbsp;&lt;span&gt;from camera input&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacing=11;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="75" width="200" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFF00;strokeWidth=9;" parent="1" source="12" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="#QRValidate&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Receives&amp;nbsp;&lt;/span&gt;code&amp;nbsp;&lt;span&gt;from #QRScan&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Connects to cloud server&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;- Sends code&amp;nbsp;that was scanned to server&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;- If code&amp;nbsp;exists on server, code&amp;nbsp;is accepted and activation process begins&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;- If code&amp;nbsp;does not exist, activation fails&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacing=11;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="245" width="200" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Activate Device&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;- Generate key based on the activation code's access level&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;- Write key to device&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;- Set initial prefs according to this state&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;- Future state init. will happen during activation check via #Main&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacing=11;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="245" width="200" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="#QRGen&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Display list of routes the driver can be authorized for&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Multi-selection route list&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- When required routes selected, activator&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacing=11;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="360" width="200" height="200" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
